@@ -1,0 +1,20 @@
+attempt 1 (no HV bus): start button 1.200 s -> inv_out 1.2147 s, prec_out 1.4547 s, prec_out released 7.0047 s (5.55 s closed) = precharge timeout
+attempt 2 (HV bus present): start button 9.700 s -> inv_out 9.7147 s, dcsw_out 9.9648 s; prec_out closed again: False
+charge: chargemodes set at 16.000 s -> inv_out 16.0247 s; opmode CHARGE reached: True
+opmode states seen over the terminal: 0, 1, 2, 3, 4  (0 OFF, 1 RUN, 2 PRECHARGE, 3 PCHFAIL, 4 CHARGE)
+errors command: [7]: STOP - PRECHARGE
+CAN1 TX 0x11A gear/status: 520 frames, median period 10.00 ms, first 9.815 s, last 15.005 s
+CAN1 TX 0x1D4 torque: 520 frames, median period 10.00 ms, first 9.815 s, last 15.005 s
+CAN1 TX 0x1DB: 520 frames, median period 10.00 ms, first 9.816 s, last 15.007 s
+CAN1 TX 0x1DC: 520 frames, median period 10.00 ms, first 9.815 s, last 15.006 s
+CAN1 TX 0x1F2: 520 frames, median period 10.00 ms, first 9.816 s, last 15.005 s
+CAN1 TX 0x50B: 112 frames, median period 100.00 ms, first 9.805 s, last 20.905 s
+CAN1 TX 0x55B: 111 frames, median period 100.00 ms, first 9.805 s, last 20.805 s
+CAN1 TX 0x59E: 111 frames, median period 100.00 ms, first 9.805 s, last 20.805 s
+CAN1 TX 0x5BC: 111 frames, median period 100.00 ms, first 9.806 s, last 20.806 s
+regen on lift-off (speed 2000 rpm from 12.000 s, pedal at rest): 47 frames before the brake, torque -1.95 -> -9.97 %, first 12.035 s
+regen with brake (PA15 high 12.500-14.000 s): torque -19.98 % (-409 raw)
+torque once speed is back to 0 (from 14.5 s): {0.0} %, 0x1D4 frames outside regen: all zero before 12.0 s: {0.0} %
+CAN2 TX 0x1806E5F4 (Elcon): 22 frames, median period 200.0 ms, first 16.205 s, last 20.405 s; command 395.0 V, 4.0 A
+CAN2 TX other ids (BMW E46 dash): 0x316 x1300 @ 10.0 ms, 0x329 x1300 @ 10.0 ms, 0x43B x1300 @ 10.0 ms, 0x545 x1300 @ 10.0 ms
+terminal: 96 polls; BMS_ChargeLim 10.0 A; udcsw 330.0 V

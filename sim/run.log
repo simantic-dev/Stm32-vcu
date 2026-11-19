@@ -1,0 +1,1190 @@
+[0.200091s] (usart3 → term) set Inverter 1
+[0.199991s] (usart3 ← term) set Inverter 1
+[0.201526s] (usart3 → term) Set OK
+[0.240088s] (usart3 → term) set BMS_Mode 1
+[0.239991s] (usart3 ← term) set BMS_Mode 1
+[0.241540s] (usart3 → term) Set OK
+[0.260095s] (usart3 → term) set dirmode 4
+[0.259991s] (usart3 ← term) set dirmode 4
+[0.261434s] (usart3 → term) Set OK
+[0.280094s] (usart3 → term) set potmin 50
+[0.279991s] (usart3 ← term) set potmin 50
+[0.281433s] (usart3 → term) Set OK
+[0.300092s] (usart3 → term) set regenBrake -20
+[0.299991s] (usart3 ← term) set regenBrake -20
+[0.301910s] (usart3 → term) Set OK
+[0.500095s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[0.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[0.507076s] (usart3 → term) 0.00
+[0.507650s] (usart3 → term) 4.00
+[0.508224s] (usart3 → term) 0.00
+[0.508798s] (usart3 → term) 330.00
+[0.509563s] (usart3 → term) 0.00
+[0.510137s] (usart3 → term) 1.00
+[0.510711s] (usart3 → term) 0.00
+[0.511285s] (usart3 → term) 0.00
+[0.511859s] (usart3 → term) 10.00
+[0.512528s] (usart3 → term) 0.00
+[0.750093s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[0.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[0.757075s] (usart3 → term) 0.00
+[0.757649s] (usart3 → term) 4.00
+[0.758223s] (usart3 → term) 0.00
+[0.758797s] (usart3 → term) 330.00
+[0.759562s] (usart3 → term) 0.00
+[0.760136s] (usart3 → term) 0.00
+[0.760709s] (usart3 → term) 0.00
+[0.761283s] (usart3 → term) 0.00
+[0.761857s] (usart3 → term) 10.00
+[0.762527s] (usart3 → term) 0.00
+[1.000092s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[0.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[1.007074s] (usart3 → term) 0.00
+[1.007648s] (usart3 → term) 4.00
+[1.008221s] (usart3 → term) 0.00
+[1.008795s] (usart3 → term) 330.00
+[1.009560s] (usart3 → term) 0.00
+[1.010134s] (usart3 → term) 1.00
+[1.010708s] (usart3 → term) 0.00
+[1.011282s] (usart3 → term) 0.00
+[1.011856s] (usart3 → term) 10.00
+[1.012525s] (usart3 → term) 0.00
+[1.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[1.250091s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[1.257160s] (usart3 → term) 2.00
+[1.257733s] (usart3 → term) 4.00
+[1.258307s] (usart3 → term) 0.00
+[1.258881s] (usart3 → term) 330.00
+[1.259646s] (usart3 → term) 0.00
+[1.260220s] (usart3 → term) 1.00
+[1.260794s] (usart3 → term) 0.00
+[1.261368s] (usart3 → term) 0.00
+[1.261942s] (usart3 → term) 10.00
+[1.262611s] (usart3 → term) 0.00
+[1.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[1.500089s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[1.507158s] (usart3 → term) 2.00
+[1.507732s] (usart3 → term) 4.00
+[1.508306s] (usart3 → term) 0.00
+[1.508880s] (usart3 → term) 330.00
+[1.509645s] (usart3 → term) 0.00
+[1.510219s] (usart3 → term) 1.00
+[1.510793s] (usart3 → term) 0.00
+[1.511366s] (usart3 → term) 0.00
+[1.511940s] (usart3 → term) 10.00
+[1.512610s] (usart3 → term) 0.00
+[1.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[1.750088s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[1.757157s] (usart3 → term) 2.00
+[1.757731s] (usart3 → term) 4.00
+[1.758305s] (usart3 → term) 0.00
+[1.758878s] (usart3 → term) 330.00
+[1.759644s] (usart3 → term) 0.00
+[1.760217s] (usart3 → term) 1.00
+[1.760791s] (usart3 → term) 0.00
+[1.761365s] (usart3 → term) 0.00
+[1.761939s] (usart3 → term) 10.00
+[1.762608s] (usart3 → term) 0.00
+[1.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[2.000095s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[2.007155s] (usart3 → term) 2.00
+[2.007729s] (usart3 → term) 4.00
+[2.008303s] (usart3 → term) 0.00
+[2.008877s] (usart3 → term) 330.00
+[2.009642s] (usart3 → term) 0.00
+[2.010216s] (usart3 → term) 1.00
+[2.010790s] (usart3 → term) 0.00
+[2.011364s] (usart3 → term) 0.00
+[2.011938s] (usart3 → term) 10.00
+[2.012607s] (usart3 → term) 0.00
+[2.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[2.250094s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[2.257154s] (usart3 → term) 2.00
+[2.257728s] (usart3 → term) 4.00
+[2.258302s] (usart3 → term) 0.00
+[2.258876s] (usart3 → term) 330.00
+[2.259641s] (usart3 → term) 0.00
+[2.260215s] (usart3 → term) 1.00
+[2.260788s] (usart3 → term) 0.00
+[2.261362s] (usart3 → term) 0.00
+[2.261936s] (usart3 → term) 10.00
+[2.262606s] (usart3 → term) 0.00
+[2.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[2.500093s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[2.507153s] (usart3 → term) 2.00
+[2.507727s] (usart3 → term) 4.00
+[2.508300s] (usart3 → term) 0.00
+[2.508874s] (usart3 → term) 330.00
+[2.509639s] (usart3 → term) 0.00
+[2.510213s] (usart3 → term) 1.00
+[2.510787s] (usart3 → term) 0.00
+[2.511361s] (usart3 → term) 0.00
+[2.511935s] (usart3 → term) 10.00
+[2.512604s] (usart3 → term) 0.00
+[2.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[2.750091s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[2.757160s] (usart3 → term) 2.00
+[2.757734s] (usart3 → term) 4.00
+[2.758308s] (usart3 → term) 0.00
+[2.758882s] (usart3 → term) 330.00
+[2.759647s] (usart3 → term) 0.00
+[2.760221s] (usart3 → term) 1.00
+[2.760794s] (usart3 → term) 0.00
+[2.761368s] (usart3 → term) 0.00
+[2.761942s] (usart3 → term) 10.00
+[2.762612s] (usart3 → term) 0.00
+[2.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[3.000090s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[3.007159s] (usart3 → term) 2.00
+[3.007733s] (usart3 → term) 4.00
+[3.008306s] (usart3 → term) 0.00
+[3.008880s] (usart3 → term) 330.00
+[3.009645s] (usart3 → term) 0.00
+[3.010219s] (usart3 → term) 1.00
+[3.010793s] (usart3 → term) 0.00
+[3.011367s] (usart3 → term) 0.00
+[3.011941s] (usart3 → term) 10.00
+[3.012610s] (usart3 → term) 0.00
+[3.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[3.250088s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[3.257157s] (usart3 → term) 2.00
+[3.257731s] (usart3 → term) 4.00
+[3.258305s] (usart3 → term) 0.00
+[3.258879s] (usart3 → term) 330.00
+[3.259644s] (usart3 → term) 0.00
+[3.260218s] (usart3 → term) 1.00
+[3.260792s] (usart3 → term) 0.00
+[3.261366s] (usart3 → term) 0.00
+[3.261939s] (usart3 → term) 10.00
+[3.262609s] (usart3 → term) 0.00
+[3.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[3.500096s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[3.507156s] (usart3 → term) 2.00
+[3.507730s] (usart3 → term) 4.00
+[3.508304s] (usart3 → term) 0.00
+[3.508878s] (usart3 → term) 330.00
+[3.509643s] (usart3 → term) 0.00
+[3.510217s] (usart3 → term) 1.00
+[3.510790s] (usart3 → term) 0.00
+[3.511364s] (usart3 → term) 0.00
+[3.511938s] (usart3 → term) 10.00
+[3.512608s] (usart3 → term) 0.00
+[3.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[3.750094s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[3.757155s] (usart3 → term) 2.00
+[3.757729s] (usart3 → term) 4.00
+[3.758302s] (usart3 → term) 0.00
+[3.758876s] (usart3 → term) 330.00
+[3.759641s] (usart3 → term) 0.00
+[3.760215s] (usart3 → term) 1.00
+[3.760789s] (usart3 → term) 0.00
+[3.761363s] (usart3 → term) 0.00
+[3.761937s] (usart3 → term) 10.00
+[3.762606s] (usart3 → term) 0.00
+[3.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[4.000093s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[4.007153s] (usart3 → term) 2.00
+[4.007727s] (usart3 → term) 4.00
+[4.008301s] (usart3 → term) 0.00
+[4.008875s] (usart3 → term) 330.00
+[4.009640s] (usart3 → term) 0.00
+[4.010214s] (usart3 → term) 1.00
+[4.010788s] (usart3 → term) 0.00
+[4.011362s] (usart3 → term) 0.00
+[4.011935s] (usart3 → term) 10.00
+[4.012605s] (usart3 → term) 0.00
+[4.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[4.250092s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[4.257152s] (usart3 → term) 2.00
+[4.257726s] (usart3 → term) 4.00
+[4.258300s] (usart3 → term) 0.00
+[4.258873s] (usart3 → term) 330.00
+[4.259639s] (usart3 → term) 0.00
+[4.260212s] (usart3 → term) 1.00
+[4.260786s] (usart3 → term) 0.00
+[4.261360s] (usart3 → term) 0.00
+[4.261934s] (usart3 → term) 10.00
+[4.262603s] (usart3 → term) 0.00
+[4.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[4.500090s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[4.507159s] (usart3 → term) 2.00
+[4.507733s] (usart3 → term) 4.00
+[4.508307s] (usart3 → term) 0.00
+[4.508881s] (usart3 → term) 330.00
+[4.509646s] (usart3 → term) 0.00
+[4.510220s] (usart3 → term) 1.00
+[4.510794s] (usart3 → term) 0.00
+[4.511367s] (usart3 → term) 0.00
+[4.511941s] (usart3 → term) 10.00
+[4.512611s] (usart3 → term) 0.00
+[4.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[4.750089s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[4.757158s] (usart3 → term) 2.00
+[4.757732s] (usart3 → term) 4.00
+[4.758306s] (usart3 → term) 0.00
+[4.758879s] (usart3 → term) 330.00
+[4.759645s] (usart3 → term) 0.00
+[4.760218s] (usart3 → term) 1.00
+[4.760792s] (usart3 → term) 0.00
+[4.761366s] (usart3 → term) 0.00
+[4.761940s] (usart3 → term) 10.00
+[4.762609s] (usart3 → term) 0.00
+[4.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[5.000096s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[5.007157s] (usart3 → term) 2.00
+[5.007730s] (usart3 → term) 4.00
+[5.008304s] (usart3 → term) 0.00
+[5.008878s] (usart3 → term) 330.00
+[5.009643s] (usart3 → term) 0.00
+[5.010217s] (usart3 → term) 1.00
+[5.010791s] (usart3 → term) 0.00
+[5.011365s] (usart3 → term) 0.00
+[5.011939s] (usart3 → term) 10.00
+[5.012608s] (usart3 → term) 0.00
+[5.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[5.250095s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[5.257155s] (usart3 → term) 2.00
+[5.257729s] (usart3 → term) 4.00
+[5.258303s] (usart3 → term) 0.00
+[5.258877s] (usart3 → term) 330.00
+[5.259642s] (usart3 → term) 0.00
+[5.260216s] (usart3 → term) 1.00
+[5.260790s] (usart3 → term) 0.00
+[5.261363s] (usart3 → term) 0.00
+[5.261937s] (usart3 → term) 10.00
+[5.262607s] (usart3 → term) 0.00
+[5.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[5.500094s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[5.507154s] (usart3 → term) 2.00
+[5.507728s] (usart3 → term) 4.00
+[5.508302s] (usart3 → term) 0.00
+[5.508875s] (usart3 → term) 330.00
+[5.509641s] (usart3 → term) 0.00
+[5.510214s] (usart3 → term) 1.00
+[5.510788s] (usart3 → term) 0.00
+[5.511362s] (usart3 → term) 0.00
+[5.511936s] (usart3 → term) 10.00
+[5.512605s] (usart3 → term) 0.00
+[5.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[5.750092s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[5.757152s] (usart3 → term) 2.00
+[5.757726s] (usart3 → term) 4.00
+[5.758300s] (usart3 → term) 0.00
+[5.758874s] (usart3 → term) 330.00
+[5.759639s] (usart3 → term) 0.00
+[5.760213s] (usart3 → term) 1.00
+[5.760787s] (usart3 → term) 0.00
+[5.761361s] (usart3 → term) 0.00
+[5.761935s] (usart3 → term) 10.00
+[5.762604s] (usart3 → term) 0.00
+[5.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[6.000091s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[6.007151s] (usart3 → term) 2.00
+[6.007725s] (usart3 → term) 4.00
+[6.008299s] (usart3 → term) 0.00
+[6.008873s] (usart3 → term) 330.00
+[6.009638s] (usart3 → term) 0.00
+[6.010212s] (usart3 → term) 1.00
+[6.010785s] (usart3 → term) 0.00
+[6.011359s] (usart3 → term) 0.00
+[6.011933s] (usart3 → term) 10.00
+[6.012603s] (usart3 → term) 0.00
+[6.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[6.250090s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[6.257158s] (usart3 → term) 2.00
+[6.257732s] (usart3 → term) 4.00
+[6.258306s] (usart3 → term) 0.00
+[6.258880s] (usart3 → term) 330.00
+[6.259645s] (usart3 → term) 0.00
+[6.260219s] (usart3 → term) 1.00
+[6.260793s] (usart3 → term) 0.00
+[6.261367s] (usart3 → term) 0.00
+[6.261941s] (usart3 → term) 10.00
+[6.262610s] (usart3 → term) 0.00
+[6.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[6.500088s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[6.507157s] (usart3 → term) 2.00
+[6.507731s] (usart3 → term) 4.00
+[6.508305s] (usart3 → term) 0.00
+[6.508879s] (usart3 → term) 330.00
+[6.509644s] (usart3 → term) 0.00
+[6.510218s] (usart3 → term) 1.00
+[6.510791s] (usart3 → term) 0.00
+[6.511365s] (usart3 → term) 0.00
+[6.511939s] (usart3 → term) 10.00
+[6.512609s] (usart3 → term) 0.00
+[6.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[6.750096s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[6.757156s] (usart3 → term) 2.00
+[6.757730s] (usart3 → term) 4.00
+[6.758303s] (usart3 → term) 0.00
+[6.758877s] (usart3 → term) 330.00
+[6.759642s] (usart3 → term) 0.00
+[6.760216s] (usart3 → term) 1.00
+[6.760790s] (usart3 → term) 0.00
+[6.761364s] (usart3 → term) 0.00
+[6.761938s] (usart3 → term) 10.00
+[6.762607s] (usart3 → term) 0.00
+[6.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[7.000094s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[7.007154s] (usart3 → term) 3.00
+[7.007728s] (usart3 → term) 4.00
+[7.008302s] (usart3 → term) 0.00
+[7.008876s] (usart3 → term) 330.00
+[7.009641s] (usart3 → term) 0.00
+[7.010215s] (usart3 → term) 1.00
+[7.010789s] (usart3 → term) 0.00
+[7.011363s] (usart3 → term) 0.00
+[7.011936s] (usart3 → term) 10.00
+[7.012606s] (usart3 → term) 0.00
+[7.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[7.250093s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[7.257153s] (usart3 → term) 3.00
+[7.257727s] (usart3 → term) 4.00
+[7.258301s] (usart3 → term) 0.00
+[7.258875s] (usart3 → term) 330.00
+[7.259640s] (usart3 → term) 0.00
+[7.260214s] (usart3 → term) 1.00
+[7.260787s] (usart3 → term) 0.00
+[7.261361s] (usart3 → term) 0.00
+[7.261935s] (usart3 → term) 10.00
+[7.262605s] (usart3 → term) 0.00
+[7.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[7.500091s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[7.507160s] (usart3 → term) 3.00
+[7.507734s] (usart3 → term) 4.00
+[7.508308s] (usart3 → term) 0.00
+[7.508882s] (usart3 → term) 330.00
+[7.509647s] (usart3 → term) 0.00
+[7.510221s] (usart3 → term) 1.00
+[7.510795s] (usart3 → term) 0.00
+[7.511369s] (usart3 → term) 0.00
+[7.511942s] (usart3 → term) 10.00
+[7.512612s] (usart3 → term) 0.00
+[7.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[7.750090s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[7.757159s] (usart3 → term) 3.00
+[7.757733s] (usart3 → term) 4.00
+[7.758307s] (usart3 → term) 0.00
+[7.758881s] (usart3 → term) 330.00
+[7.759646s] (usart3 → term) 0.00
+[7.760219s] (usart3 → term) 1.00
+[7.760793s] (usart3 → term) 0.00
+[7.761367s] (usart3 → term) 0.00
+[7.761941s] (usart3 → term) 10.00
+[7.762611s] (usart3 → term) 0.00
+[7.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[8.000089s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[8.007158s] (usart3 → term) 3.00
+[8.007731s] (usart3 → term) 4.00
+[8.008305s] (usart3 → term) 0.00
+[8.008879s] (usart3 → term) 330.00
+[8.009644s] (usart3 → term) 0.00
+[8.010218s] (usart3 → term) 1.00
+[8.010792s] (usart3 → term) 0.00
+[8.011366s] (usart3 → term) 0.00
+[8.011940s] (usart3 → term) 10.00
+[8.012609s] (usart3 → term) 0.00
+[8.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[8.250096s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[8.257156s] (usart3 → term) 3.00
+[8.257730s] (usart3 → term) 4.00
+[8.258304s] (usart3 → term) 0.00
+[8.258878s] (usart3 → term) 330.00
+[8.259643s] (usart3 → term) 0.00
+[8.260217s] (usart3 → term) 1.00
+[8.260791s] (usart3 → term) 0.00
+[8.261364s] (usart3 → term) 0.00
+[8.261938s] (usart3 → term) 10.00
+[8.262608s] (usart3 → term) 0.00
+[8.500000s] (usart2 rx) .
+[8.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[8.500095s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[8.507155s] (usart3 → term) 0.00
+[8.507729s] (usart3 → term) 4.00
+[8.508303s] (usart3 → term) 0.00
+[8.508876s] (usart3 → term) 330.00
+[8.509642s] (usart3 → term) 0.00
+[8.510215s] (usart3 → term) 1.00
+[8.510789s] (usart3 → term) 0.00
+[8.511363s] (usart3 → term) 0.00
+[8.511937s] (usart3 → term) 10.00
+[8.512606s] (usart3 → term) 0.00
+[8.750093s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[8.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[8.757075s] (usart3 → term) 0.00
+[8.757649s] (usart3 → term) 4.00
+[8.758223s] (usart3 → term) 0.00
+[8.758797s] (usart3 → term) 330.00
+[8.759562s] (usart3 → term) 0.00
+[8.760136s] (usart3 → term) 0.00
+[8.760709s] (usart3 → term) 0.00
+[8.761283s] (usart3 → term) 0.00
+[8.761857s] (usart3 → term) 10.00
+[8.762527s] (usart3 → term) 0.00
+[9.000092s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[8.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[9.007074s] (usart3 → term) 0.00
+[9.007648s] (usart3 → term) 4.00
+[9.008221s] (usart3 → term) 0.00
+[9.008795s] (usart3 → term) 330.00
+[9.009560s] (usart3 → term) 0.00
+[9.010134s] (usart3 → term) 1.00
+[9.010708s] (usart3 → term) 0.00
+[9.011282s] (usart3 → term) 0.00
+[9.011856s] (usart3 → term) 10.00
+[9.012525s] (usart3 → term) 0.00
+[9.250091s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[9.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[9.257072s] (usart3 → term) 0.00
+[9.257646s] (usart3 → term) 4.00
+[9.258220s] (usart3 → term) 0.00
+[9.258794s] (usart3 → term) 330.00
+[9.259559s] (usart3 → term) 0.00
+[9.260133s] (usart3 → term) 0.00
+[9.260707s] (usart3 → term) 0.00
+[9.261281s] (usart3 → term) 0.00
+[9.261854s] (usart3 → term) 10.00
+[9.262524s] (usart3 → term) 0.00
+[9.500089s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[9.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[9.507071s] (usart3 → term) 0.00
+[9.507645s] (usart3 → term) 4.00
+[9.508219s] (usart3 → term) 0.00
+[9.508793s] (usart3 → term) 330.00
+[9.509558s] (usart3 → term) 0.00
+[9.510132s] (usart3 → term) 1.00
+[9.510705s] (usart3 → term) 0.00
+[9.511279s] (usart3 → term) 0.00
+[9.511853s] (usart3 → term) 10.00
+[9.512523s] (usart3 → term) 0.00
+[9.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[9.750088s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[9.757192s] (usart3 → term) 1.00
+[9.757765s] (usart3 → term) 0.00
+[9.758339s] (usart3 → term) 360.00
+[9.759104s] (usart3 → term) 330.00
+[9.759870s] (usart3 → term) 0.00
+[9.760443s] (usart3 → term) 1.00
+[9.761017s] (usart3 → term) 0.00
+[9.761591s] (usart3 → term) 0.00
+[9.762165s] (usart3 → term) 10.00
+[9.762834s] (usart3 → term) 0.00
+[9.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[10.000095s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[10.008294s] (usart3 → term) 1.00
+[10.008868s] (usart3 → term) 0.00
+[10.009442s] (usart3 → term) 360.00
+[10.010207s] (usart3 → term) 330.00
+[10.010972s] (usart3 → term) 0.00
+[10.011546s] (usart3 → term) 1.00
+[10.012120s] (usart3 → term) 0.00
+[10.012694s] (usart3 → term) 0.00
+[10.013268s] (usart3 → term) 10.00
+[10.013937s] (usart3 → term) 0.00
+[10.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[10.250094s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[10.257424s] (usart3 → term) 1.00
+[10.257997s] (usart3 → term) 0.00
+[10.258571s] (usart3 → term) 360.00
+[10.259336s] (usart3 → term) 330.00
+[10.260102s] (usart3 → term) 0.00
+[10.260675s] (usart3 → term) 1.00
+[10.261249s] (usart3 → term) 0.00
+[10.261823s] (usart3 → term) 0.00
+[10.262397s] (usart3 → term) 10.00
+[10.263066s] (usart3 → term) 0.00
+[10.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[10.500093s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[10.508300s] (usart3 → term) 1.00
+[10.508874s] (usart3 → term) 0.00
+[10.509448s] (usart3 → term) 360.00
+[10.510213s] (usart3 → term) 330.00
+[10.510978s] (usart3 → term) 0.00
+[10.511552s] (usart3 → term) 1.00
+[10.512126s] (usart3 → term) 0.00
+[10.512700s] (usart3 → term) 0.00
+[10.513274s] (usart3 → term) 10.00
+[10.513943s] (usart3 → term) 0.00
+[10.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[10.750091s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[10.757430s] (usart3 → term) 1.00
+[10.758003s] (usart3 → term) 0.00
+[10.758577s] (usart3 → term) 360.00
+[10.759342s] (usart3 → term) 330.00
+[10.760108s] (usart3 → term) 0.00
+[10.760681s] (usart3 → term) 1.00
+[10.761255s] (usart3 → term) 0.00
+[10.761829s] (usart3 → term) 0.00
+[10.762403s] (usart3 → term) 10.00
+[10.763072s] (usart3 → term) 0.00
+[10.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[11.000090s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[11.008298s] (usart3 → term) 1.00
+[11.008872s] (usart3 → term) 0.00
+[11.009445s] (usart3 → term) 360.00
+[11.010211s] (usart3 → term) 330.00
+[11.010976s] (usart3 → term) 0.00
+[11.011550s] (usart3 → term) 1.00
+[11.012123s] (usart3 → term) 0.00
+[11.012697s] (usart3 → term) 0.00
+[11.013271s] (usart3 → term) 10.00
+[11.013941s] (usart3 → term) 0.00
+[11.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[11.250088s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[11.257427s] (usart3 → term) 1.00
+[11.258001s] (usart3 → term) 0.00
+[11.258575s] (usart3 → term) 360.00
+[11.259340s] (usart3 → term) 330.00
+[11.260105s] (usart3 → term) 0.00
+[11.260679s] (usart3 → term) 1.00
+[11.261253s] (usart3 → term) 0.00
+[11.261826s] (usart3 → term) 0.00
+[11.262400s] (usart3 → term) 10.00
+[11.263070s] (usart3 → term) 0.00
+[11.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[11.500096s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[11.508295s] (usart3 → term) 1.00
+[11.508869s] (usart3 → term) 0.00
+[11.509443s] (usart3 → term) 360.00
+[11.510208s] (usart3 → term) 330.00
+[11.510973s] (usart3 → term) 0.00
+[11.511547s] (usart3 → term) 1.00
+[11.512121s] (usart3 → term) 0.00
+[11.512695s] (usart3 → term) 0.00
+[11.513268s] (usart3 → term) 10.00
+[11.513938s] (usart3 → term) 0.00
+[11.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[11.750094s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[11.757424s] (usart3 → term) 1.00
+[11.757998s] (usart3 → term) 0.00
+[11.758572s] (usart3 → term) 360.00
+[11.759337s] (usart3 → term) 330.00
+[11.760102s] (usart3 → term) 0.00
+[11.760676s] (usart3 → term) 1.00
+[11.761250s] (usart3 → term) 0.00
+[11.761824s] (usart3 → term) 0.00
+[11.762397s] (usart3 → term) 10.00
+[11.763067s] (usart3 → term) 0.00
+[11.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[12.000093s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[12.008301s] (usart3 → term) 1.00
+[12.008875s] (usart3 → term) 0.00
+[12.009449s] (usart3 → term) 360.00
+[12.010214s] (usart3 → term) 330.00
+[12.010979s] (usart3 → term) 2000.00
+[12.011840s] (usart3 → term) 1.00
+[12.012414s] (usart3 → term) 0.00
+[12.012987s] (usart3 → term) 0.00
+[12.013561s] (usart3 → term) 10.00
+[12.014231s] (usart3 → term) 0.00
+[12.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[12.250092s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[12.257430s] (usart3 → term) 1.00
+[12.258004s] (usart3 → term) 0.00
+[12.258578s] (usart3 → term) 360.00
+[12.259343s] (usart3 → term) 330.00
+[12.260108s] (usart3 → term) 2000.00
+[12.260969s] (usart3 → term) 1.00
+[12.261543s] (usart3 → term) -10.00
+[12.262308s] (usart3 → term) -204.00
+[12.263169s] (usart3 → term) 10.00
+[12.263838s] (usart3 → term) 0.00
+[12.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[12.500090s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[12.508298s] (usart3 → term) 1.00
+[12.508872s] (usart3 → term) 0.00
+[12.509446s] (usart3 → term) 360.00
+[12.510211s] (usart3 → term) 330.00
+[12.510976s] (usart3 → term) 2000.00
+[12.511837s] (usart3 → term) 1.00
+[12.512411s] (usart3 → term) -10.00
+[12.513176s] (usart3 → term) -204.00
+[12.514037s] (usart3 → term) 10.00
+[12.514706s] (usart3 → term) 0.00
+[12.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[12.750089s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[12.757419s] (usart3 → term) 1.00
+[12.757993s] (usart3 → term) 0.00
+[12.758566s] (usart3 → term) 360.00
+[12.759332s] (usart3 → term) 330.00
+[12.760097s] (usart3 → term) 2000.00
+[12.760957s] (usart3 → term) 1.00
+[12.761531s] (usart3 → term) -20.00
+[12.762296s] (usart3 → term) -409.00
+[12.763157s] (usart3 → term) 10.00
+[12.763827s] (usart3 → term) 0.00
+[12.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[13.000096s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[13.008296s] (usart3 → term) 1.00
+[13.008869s] (usart3 → term) 0.00
+[13.009443s] (usart3 → term) 360.00
+[13.010208s] (usart3 → term) 330.00
+[13.010974s] (usart3 → term) 2000.00
+[13.011834s] (usart3 → term) 1.00
+[13.012408s] (usart3 → term) -20.00
+[13.013173s] (usart3 → term) -409.00
+[13.014034s] (usart3 → term) 10.00
+[13.014703s] (usart3 → term) 0.00
+[13.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[13.250095s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[13.257425s] (usart3 → term) 1.00
+[13.257999s] (usart3 → term) 0.00
+[13.258572s] (usart3 → term) 360.00
+[13.259338s] (usart3 → term) 330.00
+[13.260103s] (usart3 → term) 2000.00
+[13.260963s] (usart3 → term) 1.00
+[13.261537s] (usart3 → term) -20.00
+[13.262302s] (usart3 → term) -409.00
+[13.263163s] (usart3 → term) 10.00
+[13.263833s] (usart3 → term) 0.00
+[13.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[13.500094s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[13.508293s] (usart3 → term) 1.00
+[13.508867s] (usart3 → term) 0.00
+[13.509441s] (usart3 → term) 360.00
+[13.510206s] (usart3 → term) 330.00
+[13.510971s] (usart3 → term) 2000.00
+[13.511832s] (usart3 → term) 1.00
+[13.512405s] (usart3 → term) -20.00
+[13.513171s] (usart3 → term) -409.00
+[13.514031s] (usart3 → term) 10.00
+[13.514701s] (usart3 → term) 0.00
+[13.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[13.750092s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[13.757422s] (usart3 → term) 1.00
+[13.757996s] (usart3 → term) 0.00
+[13.758570s] (usart3 → term) 360.00
+[13.759335s] (usart3 → term) 330.00
+[13.760100s] (usart3 → term) 2000.00
+[13.760961s] (usart3 → term) 1.00
+[13.761535s] (usart3 → term) -20.00
+[13.762300s] (usart3 → term) -409.00
+[13.763160s] (usart3 → term) 10.00
+[13.763830s] (usart3 → term) 0.00
+[13.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[14.000091s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[14.008290s] (usart3 → term) 1.00
+[14.008864s] (usart3 → term) 0.00
+[14.009438s] (usart3 → term) 360.00
+[14.010203s] (usart3 → term) 330.00
+[14.010968s] (usart3 → term) 0.00
+[14.011542s] (usart3 → term) 1.00
+[14.012116s] (usart3 → term) -20.00
+[14.012881s] (usart3 → term) -409.00
+[14.013742s] (usart3 → term) 10.00
+[14.014411s] (usart3 → term) 0.00
+[14.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[14.250089s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[14.257428s] (usart3 → term) 1.00
+[14.258002s] (usart3 → term) 0.00
+[14.258576s] (usart3 → term) 360.00
+[14.259341s] (usart3 → term) 330.00
+[14.260106s] (usart3 → term) 0.00
+[14.260680s] (usart3 → term) 1.00
+[14.261254s] (usart3 → term) 0.00
+[14.261827s] (usart3 → term) 0.00
+[14.262401s] (usart3 → term) 10.00
+[14.263071s] (usart3 → term) 0.00
+[14.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[14.500088s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[14.508296s] (usart3 → term) 1.00
+[14.508870s] (usart3 → term) 0.00
+[14.509444s] (usart3 → term) 360.00
+[14.510209s] (usart3 → term) 330.00
+[14.510974s] (usart3 → term) 0.00
+[14.511548s] (usart3 → term) 1.00
+[14.512122s] (usart3 → term) 0.00
+[14.512696s] (usart3 → term) 0.00
+[14.513269s] (usart3 → term) 10.00
+[14.513939s] (usart3 → term) 0.00
+[14.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[14.750095s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[14.757425s] (usart3 → term) 1.00
+[14.757999s] (usart3 → term) 0.00
+[14.758573s] (usart3 → term) 360.00
+[14.759338s] (usart3 → term) 330.00
+[14.760103s] (usart3 → term) 0.00
+[14.760677s] (usart3 → term) 1.00
+[14.761251s] (usart3 → term) 0.00
+[14.761825s] (usart3 → term) 0.00
+[14.762399s] (usart3 → term) 10.00
+[14.763068s] (usart3 → term) 0.00
+[15.000000s] (usart2 rx) .
+[14.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[15.000094s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[15.008302s] (usart3 → term) 0.00
+[15.008876s] (usart3 → term) 0.00
+[15.009450s] (usart3 → term) 360.00
+[15.010215s] (usart3 → term) 330.00
+[15.010980s] (usart3 → term) 0.00
+[15.011554s] (usart3 → term) 1.00
+[15.012128s] (usart3 → term) 0.00
+[15.012702s] (usart3 → term) 0.00
+[15.013275s] (usart3 → term) 10.00
+[15.013945s] (usart3 → term) 0.00
+[15.250093s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[15.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[15.257075s] (usart3 → term) 0.00
+[15.257648s] (usart3 → term) 4.00
+[15.258222s] (usart3 → term) 0.00
+[15.258796s] (usart3 → term) 330.00
+[15.259561s] (usart3 → term) 0.00
+[15.260135s] (usart3 → term) 0.00
+[15.260709s] (usart3 → term) 0.00
+[15.261283s] (usart3 → term) 0.00
+[15.261857s] (usart3 → term) 10.00
+[15.262526s] (usart3 → term) 0.00
+[15.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[15.500091s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[15.507160s] (usart3 → term) 0.00
+[15.507734s] (usart3 → term) 4.00
+[15.508308s] (usart3 → term) 0.00
+[15.508882s] (usart3 → term) 330.00
+[15.509647s] (usart3 → term) 0.00
+[15.510221s] (usart3 → term) 1.00
+[15.510795s] (usart3 → term) 0.00
+[15.511369s] (usart3 → term) 0.00
+[15.511942s] (usart3 → term) 10.00
+[15.512612s] (usart3 → term) 0.00
+[15.750090s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[15.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[15.757072s] (usart3 → term) 0.00
+[15.757646s] (usart3 → term) 4.00
+[15.758219s] (usart3 → term) 0.00
+[15.758793s] (usart3 → term) 330.00
+[15.759558s] (usart3 → term) 0.00
+[15.760132s] (usart3 → term) 0.00
+[15.760706s] (usart3 → term) 0.00
+[15.761280s] (usart3 → term) 0.00
+[15.761854s] (usart3 → term) 10.00
+[15.762523s] (usart3 → term) 0.00
+[16.000089s] (usart3 → term) set chargemodes 6
+[16.001828s] (usart3 → term) Set OK
+[15.999991s] (usart3 ← term) set chargemodes 6get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[16.002593s] (usart3 → term) g opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[16.009453s] (usart3 → term) Unknown command sequence
+[16.250096s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[16.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[16.257078s] (usart3 → term) 4.00
+[16.257652s] (usart3 → term) 0.00
+[16.258225s] (usart3 → term) 360.00
+[16.258991s] (usart3 → term) 330.00
+[16.259756s] (usart3 → term) 0.00
+[16.260330s] (usart3 → term) 1.00
+[16.260903s] (usart3 → term) 0.00
+[16.261477s] (usart3 → term) 0.00
+[16.262051s] (usart3 → term) 10.00
+[16.262721s] (usart3 → term) 1.00
+[16.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[16.500095s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[16.507155s] (usart3 → term) 4.00
+[16.507729s] (usart3 → term) 0.00
+[16.508303s] (usart3 → term) 360.00
+[16.509068s] (usart3 → term) 330.00
+[16.509833s] (usart3 → term) 0.00
+[16.510407s] (usart3 → term) 1.00
+[16.510980s] (usart3 → term) 0.00
+[16.511554s] (usart3 → term) 0.00
+[16.512128s] (usart3 → term) 10.00
+[16.512798s] (usart3 → term) 1.00
+[16.750093s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[16.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[16.757075s] (usart3 → term) 4.00
+[16.757649s] (usart3 → term) 0.00
+[16.758223s] (usart3 → term) 360.00
+[16.758988s] (usart3 → term) 330.00
+[16.759753s] (usart3 → term) 0.00
+[16.760327s] (usart3 → term) 1.00
+[16.760901s] (usart3 → term) 0.00
+[16.761475s] (usart3 → term) 0.00
+[16.762048s] (usart3 → term) 10.00
+[16.762718s] (usart3 → term) 1.00
+[16.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[17.000092s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[17.007161s] (usart3 → term) 4.00
+[17.007735s] (usart3 → term) 0.00
+[17.008309s] (usart3 → term) 360.00
+[17.009074s] (usart3 → term) 330.00
+[17.009839s] (usart3 → term) 0.00
+[17.010413s] (usart3 → term) 1.00
+[17.010986s] (usart3 → term) 0.00
+[17.011560s] (usart3 → term) 0.00
+[17.012134s] (usart3 → term) 10.00
+[17.012804s] (usart3 → term) 1.00
+[17.250091s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[17.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[17.257072s] (usart3 → term) 4.00
+[17.257646s] (usart3 → term) 0.00
+[17.258220s] (usart3 → term) 360.00
+[17.258985s] (usart3 → term) 330.00
+[17.259750s] (usart3 → term) 0.00
+[17.260324s] (usart3 → term) 1.00
+[17.260898s] (usart3 → term) 0.00
+[17.261472s] (usart3 → term) 0.00
+[17.262046s] (usart3 → term) 10.00
+[17.262715s] (usart3 → term) 1.00
+[17.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[17.500089s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[17.507158s] (usart3 → term) 4.00
+[17.507732s] (usart3 → term) 0.00
+[17.508306s] (usart3 → term) 360.00
+[17.509071s] (usart3 → term) 330.00
+[17.509836s] (usart3 → term) 0.00
+[17.510410s] (usart3 → term) 1.00
+[17.510984s] (usart3 → term) 0.00
+[17.511558s] (usart3 → term) 0.00
+[17.512131s] (usart3 → term) 10.00
+[17.512801s] (usart3 → term) 1.00
+[17.750088s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[17.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[17.757070s] (usart3 → term) 4.00
+[17.757643s] (usart3 → term) 0.00
+[17.758217s] (usart3 → term) 360.00
+[17.758982s] (usart3 → term) 330.00
+[17.759748s] (usart3 → term) 0.00
+[17.760321s] (usart3 → term) 1.00
+[17.760895s] (usart3 → term) 0.00
+[17.761469s] (usart3 → term) 0.00
+[17.762043s] (usart3 → term) 10.00
+[17.762712s] (usart3 → term) 1.00
+[17.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[18.000095s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[18.007155s] (usart3 → term) 4.00
+[18.007729s] (usart3 → term) 0.00
+[18.008303s] (usart3 → term) 360.00
+[18.009068s] (usart3 → term) 330.00
+[18.009833s] (usart3 → term) 0.00
+[18.010407s] (usart3 → term) 1.00
+[18.010981s] (usart3 → term) 0.00
+[18.011555s] (usart3 → term) 0.00
+[18.012129s] (usart3 → term) 10.00
+[18.012798s] (usart3 → term) 1.00
+[18.250094s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[18.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[18.257076s] (usart3 → term) 4.00
+[18.257649s] (usart3 → term) 0.00
+[18.258223s] (usart3 → term) 360.00
+[18.258988s] (usart3 → term) 330.00
+[18.259754s] (usart3 → term) 0.00
+[18.260327s] (usart3 → term) 1.00
+[18.260901s] (usart3 → term) 0.00
+[18.261475s] (usart3 → term) 0.00
+[18.262049s] (usart3 → term) 10.00
+[18.262718s] (usart3 → term) 1.00
+[18.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[18.500092s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[18.507161s] (usart3 → term) 4.00
+[18.507735s] (usart3 → term) 0.00
+[18.508309s] (usart3 → term) 360.00
+[18.509074s] (usart3 → term) 330.00
+[18.509839s] (usart3 → term) 0.00
+[18.510413s] (usart3 → term) 1.00
+[18.510987s] (usart3 → term) 0.00
+[18.511561s] (usart3 → term) 0.00
+[18.512135s] (usart3 → term) 10.00
+[18.512804s] (usart3 → term) 1.00
+[18.750091s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[18.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[18.757073s] (usart3 → term) 4.00
+[18.757647s] (usart3 → term) 0.00
+[18.758221s] (usart3 → term) 360.00
+[18.758986s] (usart3 → term) 330.00
+[18.759751s] (usart3 → term) 0.00
+[18.760325s] (usart3 → term) 1.00
+[18.760898s] (usart3 → term) 0.00
+[18.761472s] (usart3 → term) 0.00
+[18.762046s] (usart3 → term) 10.00
+[18.762716s] (usart3 → term) 1.00
+[18.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[19.000090s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[19.007159s] (usart3 → term) 4.00
+[19.007733s] (usart3 → term) 0.00
+[19.008306s] (usart3 → term) 360.00
+[19.009071s] (usart3 → term) 330.00
+[19.009837s] (usart3 → term) 0.00
+[19.010410s] (usart3 → term) 1.00
+[19.010984s] (usart3 → term) 0.00
+[19.011558s] (usart3 → term) 0.00
+[19.012132s] (usart3 → term) 10.00
+[19.012801s] (usart3 → term) 1.00
+[19.250088s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[19.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[19.257070s] (usart3 → term) 4.00
+[19.257644s] (usart3 → term) 0.00
+[19.258218s] (usart3 → term) 360.00
+[19.258983s] (usart3 → term) 330.00
+[19.259748s] (usart3 → term) 0.00
+[19.260322s] (usart3 → term) 1.00
+[19.260896s] (usart3 → term) 0.00
+[19.261470s] (usart3 → term) 0.00
+[19.262043s] (usart3 → term) 10.00
+[19.262713s] (usart3 → term) 1.00
+[19.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[19.500096s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[19.507156s] (usart3 → term) 4.00
+[19.507730s] (usart3 → term) 0.00
+[19.508304s] (usart3 → term) 360.00
+[19.509069s] (usart3 → term) 330.00
+[19.509834s] (usart3 → term) 0.00
+[19.510408s] (usart3 → term) 1.00
+[19.510982s] (usart3 → term) 0.00
+[19.511555s] (usart3 → term) 0.00
+[19.512129s] (usart3 → term) 10.00
+[19.512799s] (usart3 → term) 1.00
+[19.750094s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[19.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[19.757076s] (usart3 → term) 4.00
+[19.757650s] (usart3 → term) 0.00
+[19.758224s] (usart3 → term) 360.00
+[19.758989s] (usart3 → term) 330.00
+[19.759754s] (usart3 → term) 0.00
+[19.760328s] (usart3 → term) 1.00
+[19.760902s] (usart3 → term) 0.00
+[19.761476s] (usart3 → term) 0.00
+[19.762049s] (usart3 → term) 10.00
+[19.762719s] (usart3 → term) 1.00
+[19.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[20.000093s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[20.007162s] (usart3 → term) 4.00
+[20.007736s] (usart3 → term) 0.00
+[20.008310s] (usart3 → term) 360.00
+[20.009075s] (usart3 → term) 330.00
+[20.009840s] (usart3 → term) 0.00
+[20.010414s] (usart3 → term) 1.00
+[20.010988s] (usart3 → term) 0.00
+[20.011561s] (usart3 → term) 0.00
+[20.012135s] (usart3 → term) 10.00
+[20.012805s] (usart3 → term) 1.00
+[20.250092s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[20.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[20.257073s] (usart3 → term) 4.00
+[20.257647s] (usart3 → term) 0.00
+[20.258221s] (usart3 → term) 360.00
+[20.258986s] (usart3 → term) 330.00
+[20.259751s] (usart3 → term) 0.00
+[20.260325s] (usart3 → term) 1.00
+[20.260899s] (usart3 → term) 0.00
+[20.261473s] (usart3 → term) 0.00
+[20.262047s] (usart3 → term) 10.00
+[20.262716s] (usart3 → term) 1.00
+[20.500090s] (usart3 → term) set chargemodes 0
+[20.501812s] (usart3 → term) Set OK
+[20.499991s] (usart3 ← term) set chargemodes 0get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[20.502577s] (usart3 → term) gt opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[20.509550s] (usart3 → term) Unknown command sequence
+[20.750089s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[20.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[20.757071s] (usart3 → term) 0.00
+[20.757645s] (usart3 → term) 4.00
+[20.758218s] (usart3 → term) 0.00
+[20.758792s] (usart3 → term) 330.00
+[20.759557s] (usart3 → term) 0.00
+[20.760131s] (usart3 → term) 0.00
+[20.760705s] (usart3 → term) 0.00
+[20.761279s] (usart3 → term) 0.00
+[20.761853s] (usart3 → term) 10.00
+[20.762522s] (usart3 → term) 0.00
+[21.000096s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[20.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[21.007078s] (usart3 → term) 0.00
+[21.007652s] (usart3 → term) 4.00
+[21.008226s] (usart3 → term) 0.00
+[21.008800s] (usart3 → term) 330.00
+[21.009565s] (usart3 → term) 0.00
+[21.010139s] (usart3 → term) 1.00
+[21.010712s] (usart3 → term) 0.00
+[21.011286s] (usart3 → term) 0.00
+[21.011860s] (usart3 → term) 10.00
+[21.012530s] (usart3 → term) 0.00
+[21.200090s] (usart3 → term) errors
+[21.199991s] (usart3 ← term) errors
+[21.200759s] (usart3 → term) [7]: STOP - PRECHARGE
+[21.250095s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[21.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[21.257077s] (usart3 → term) 0.00
+[21.257650s] (usart3 → term) 4.00
+[21.258224s] (usart3 → term) 0.00
+[21.258798s] (usart3 → term) 330.00
+[21.259563s] (usart3 → term) 0.00
+[21.260137s] (usart3 → term) 0.00
+[21.260711s] (usart3 → term) 0.00
+[21.261285s] (usart3 → term) 0.00
+[21.261859s] (usart3 → term) 10.00
+[21.262528s] (usart3 → term) 0.00
+[21.500094s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[21.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[21.507075s] (usart3 → term) 0.00
+[21.507649s] (usart3 → term) 4.00
+[21.508223s] (usart3 → term) 0.00
+[21.508797s] (usart3 → term) 330.00
+[21.509562s] (usart3 → term) 0.00
+[21.510136s] (usart3 → term) 1.00
+[21.510710s] (usart3 → term) 0.00
+[21.511283s] (usart3 → term) 0.00
+[21.511857s] (usart3 → term) 10.00
+[21.512527s] (usart3 → term) 0.00
+[21.750092s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[21.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[21.757074s] (usart3 → term) 0.00
+[21.757648s] (usart3 → term) 4.00
+[21.758222s] (usart3 → term) 0.00
+[21.758795s] (usart3 → term) 330.00
+[21.759561s] (usart3 → term) 0.00
+[21.760134s] (usart3 → term) 0.00
+[21.760708s] (usart3 → term) 0.00
+[21.761282s] (usart3 → term) 0.00
+[21.761856s] (usart3 → term) 10.00
+[21.762525s] (usart3 → term) 0.00
+[22.000091s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[21.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[22.007073s] (usart3 → term) 0.00
+[22.007646s] (usart3 → term) 4.00
+[22.008220s] (usart3 → term) 0.00
+[22.008794s] (usart3 → term) 330.00
+[22.009559s] (usart3 → term) 0.00
+[22.010133s] (usart3 → term) 1.00
+[22.010707s] (usart3 → term) 0.00
+[22.011281s] (usart3 → term) 0.00
+[22.011855s] (usart3 → term) 10.00
+[22.012524s] (usart3 → term) 0.00
+[22.250089s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[22.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[22.257071s] (usart3 → term) 0.00
+[22.257645s] (usart3 → term) 4.00
+[22.258219s] (usart3 → term) 0.00
+[22.258793s] (usart3 → term) 330.00
+[22.259558s] (usart3 → term) 0.00
+[22.260132s] (usart3 → term) 0.00
+[22.260706s] (usart3 → term) 0.00
+[22.261279s] (usart3 → term) 0.00
+[22.261853s] (usart3 → term) 10.00
+[22.262523s] (usart3 → term) 0.00
+[22.500088s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[22.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[22.507070s] (usart3 → term) 0.00
+[22.507644s] (usart3 → term) 4.00
+[22.508218s] (usart3 → term) 0.00
+[22.508791s] (usart3 → term) 330.00
+[22.509557s] (usart3 → term) 0.00
+[22.510130s] (usart3 → term) 1.00
+[22.510704s] (usart3 → term) 0.00
+[22.511278s] (usart3 → term) 0.00
+[22.511852s] (usart3 → term) 10.00
+[22.512521s] (usart3 → term) 0.00
+[22.750095s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[22.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[22.757077s] (usart3 → term) 0.00
+[22.757651s] (usart3 → term) 4.00
+[22.758225s] (usart3 → term) 0.00
+[22.758799s] (usart3 → term) 330.00
+[22.759564s] (usart3 → term) 0.00
+[22.760138s] (usart3 → term) 0.00
+[22.760712s] (usart3 → term) 0.00
+[22.761285s] (usart3 → term) 0.00
+[22.761859s] (usart3 → term) 10.00
+[22.762529s] (usart3 → term) 0.00
+[23.000094s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[22.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[23.007076s] (usart3 → term) 0.00
+[23.007650s] (usart3 → term) 4.00
+[23.008224s] (usart3 → term) 0.00
+[23.008797s] (usart3 → term) 330.00
+[23.009562s] (usart3 → term) 0.00
+[23.010136s] (usart3 → term) 1.00
+[23.010710s] (usart3 → term) 0.00
+[23.011284s] (usart3 → term) 0.00
+[23.011858s] (usart3 → term) 10.00
+[23.012527s] (usart3 → term) 0.00
+[23.250093s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[23.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[23.257074s] (usart3 → term) 0.00
+[23.257648s] (usart3 → term) 4.00
+[23.258222s] (usart3 → term) 0.00
+[23.258796s] (usart3 → term) 330.00
+[23.259561s] (usart3 → term) 0.00
+[23.260135s] (usart3 → term) 0.00
+[23.260709s] (usart3 → term) 0.00
+[23.261283s] (usart3 → term) 0.00
+[23.261856s] (usart3 → term) 10.00
+[23.262526s] (usart3 → term) 0.00
+[23.500091s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[23.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[23.507073s] (usart3 → term) 0.00
+[23.507647s] (usart3 → term) 4.00
+[23.508221s] (usart3 → term) 0.00
+[23.508795s] (usart3 → term) 330.00
+[23.509560s] (usart3 → term) 0.00
+[23.510134s] (usart3 → term) 1.00
+[23.510707s] (usart3 → term) 0.00
+[23.511281s] (usart3 → term) 0.00
+[23.511855s] (usart3 → term) 10.00
+[23.512525s] (usart3 → term) 0.00
+[23.750090s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[23.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[23.757072s] (usart3 → term) 0.00
+[23.757646s] (usart3 → term) 4.00
+[23.758219s] (usart3 → term) 0.00
+[23.758793s] (usart3 → term) 330.00
+[23.759558s] (usart3 → term) 0.00
+[23.760132s] (usart3 → term) 0.00
+[23.760706s] (usart3 → term) 0.00
+[23.761280s] (usart3 → term) 0.00
+[23.761854s] (usart3 → term) 10.00
+[23.762523s] (usart3 → term) 0.00
+[24.000089s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[23.999991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[24.007070s] (usart3 → term) 0.00
+[24.007644s] (usart3 → term) 4.00
+[24.008218s] (usart3 → term) 0.00
+[24.008792s] (usart3 → term) 330.00
+[24.009557s] (usart3 → term) 0.00
+[24.010131s] (usart3 → term) 1.00
+[24.010705s] (usart3 → term) 0.00
+[24.011279s] (usart3 → term) 0.00
+[24.011852s] (usart3 → term) 10.00
+[24.012522s] (usart3 → term) 0.00
+[24.250096s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[24.249991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[24.257078s] (usart3 → term) 0.00
+[24.257652s] (usart3 → term) 4.00
+[24.258225s] (usart3 → term) 0.00
+[24.258799s] (usart3 → term) 330.00
+[24.259564s] (usart3 → term) 0.00
+[24.260138s] (usart3 → term) 0.00
+[24.260712s] (usart3 → term) 0.00
+[24.261286s] (usart3 → term) 0.00
+[24.261860s] (usart3 → term) 10.00
+[24.262529s] (usart3 → term) 0.00
+[24.500095s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[24.499991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[24.507076s] (usart3 → term) 0.00
+[24.507650s] (usart3 → term) 4.00
+[24.508224s] (usart3 → term) 0.00
+[24.508798s] (usart3 → term) 330.00
+[24.509563s] (usart3 → term) 0.00
+[24.510137s] (usart3 → term) 1.00
+[24.510711s] (usart3 → term) 0.00
+[24.511285s] (usart3 → term) 0.00
+[24.511858s] (usart3 → term) 10.00
+[24.512528s] (usart3 → term) 0.00
+[24.750093s] (usart3 → term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[24.749991s] (usart3 ← term) get opmode,status,udc,udcsw,speed,dir,potnom,torque,BMS_ChargeLim,chgtyp
+[24.757075s] (usart3 → term) 0.00
+[24.757649s] (usart3 → term) 4.00
+[24.758223s] (usart3 → term) 0.00
+[24.758797s] (usart3 → term) 330.00
+[24.759562s] (usart3 → term) 0.00
+[24.760136s] (usart3 → term) 0.00
+[24.760709s] (usart3 → term) 0.00
+[24.761283s] (usart3 → term) 0.00
+[24.761857s] (usart3 → term) 10.00
+[24.762527s] (usart3 → term) 0.00
+loop skip [vcu] core 0: taken 382989 refused-after-dry-run 36028 instructions skipped 36905348 (depth memo hits 10419)
+jit [vcu] core 0: 1839 blocks, 1720735809 of 1762890460 instructions in blocks (97.6%), 3.1 per block run, 46.1 per chain, 96.5% of block runs linked; terminators [("side-exit at a non-plain access (runs)", 843609), ("branch Bl", 523), ("branch Bcond", 415), ("branch Bx", 192), ("branch Cbz", 135), ("branch Blx", 125), ("branch B", 104), ("branch Pop", 73), ("cache-miss", 53), ("branch BCondW", 35)]
+warning: vcu: rcc: firmware enabled HSE but the board declares no rcc hseFrequency; assuming a 8 MHz crystal (the chip default). Every clock derived from HSE (PLLs, UART/CAN/SPI rates, SysTick, timers) follows that value, so a board with another crystal runs them all wrong. Set the board's: a --board file with `rcc:` then `    hseFrequency: 25000000` (Hz), or declare it on the part
+timing (vcu): 72000000 instructions/s (clock-tree x 1.0 (unmeasured)), 13.88888888888889 ns/insn, flat ns per instruction, wait states not modelled, irq jitter 0 ns seed 1, 12 declared assumptions
+Recorded: run 1 into /var/folders/y2/_t0jvjs571xcc12kqtv565sm0000gn/T/tmp.acCFJsZ5hR (seq 0..=1056979): fault 0, frame 33573, gpio 166790, isr 855432, isr_usage 1, log 1, uart 1182
+Scenario: scenario.yaml
+  vcu
+Elapsed: 28.108s

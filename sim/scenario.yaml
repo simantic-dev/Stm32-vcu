@@ -1,0 +1,16 @@
+machines:
+  vcu:
+    mcu: STM32F107VC
+    elf: vcu.elf
+    preload: [vtor.bin@0x08000000]
+    parts:
+      - { name: term, type: uart-device, script: term_peer.py }
+      - { name: inv,  type: can-node, script: inv_peer.py }
+      - { name: bms,  type: can-node, script: bms_peer.py }
+      - { name: chg,  type: can-node, script: chg_peer.py }
+      - { name: io,   type: gpio-device, outputs: [PD6, PD7, PA15, PD5, PD4, PE3, PE4, PE5], script: io_peer.py }
+media:
+  - { type: can, connect: [vcu.can1, vcu.inv] }
+  - { type: can, connect: [vcu.can2, vcu.bms, vcu.chg] }
+  - { type: uart, connect: [vcu.usart3, vcu.term] }
+timeout: 25
