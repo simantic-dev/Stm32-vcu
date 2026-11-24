@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Run the unmodified stm32-vcu firmware in the simulator, check the output, and draw the PNG.
-# Needs `sim` with STM32F1 support (a pre-release build until it ships: SIM=/path/to/sim ./run.sh) and python3 with matplotlib.
+# Needs released `sim` 0.10.8 or later and python3 with matplotlib.
 # ELF: `make get-deps && make` in the repo root, then copy stm32_vcu here as vcu.elf (committed already).
 # vtor.bin = the first 512 bytes of stm32_vcu.bin (the vector table): the firmware is linked at 0x08001000 for the OpenInverter bootloader, which
 # relocates VTOR; with no bootloader in the sim the table is preloaded at 0x08000000 instead.

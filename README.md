@@ -10,15 +10,14 @@ STM32F107VC (the chip this code is written for) with a Nissan Leaf inverter on C
 the key, start button and brake on pads, and a serial terminal on USART3. No board, no car. Everything is in [`sim/`](sim/).
 
 ```
-cd sim && SIM=/path/to/sim ./run.sh     # the plot needs python3 + matplotlib
+cd sim && ./run.sh     # released sim 0.10.8 or later; the plot needs python3 + matplotlib
 ```
 
-**This needs a pre-release `sim` until STM32F1 ships.** Released `sim` 0.10.4 does not run it (`machine 'vcu': build error: no cpu entry`).
-The numbers below come from a pyrite build (`sim 0.10.0`, commit `50d3404e`, the F1 model branch merged with the F1 die model), set with `SIM=`.
+Runs on released `sim` 0.10.8 (build 64f89c38); the numbers below are from that run and are identical to the earlier pre-release run.
 
 ![State machine, relays, Leaf and Elcon CAN](sim/vcu.png)
 
-**Measured, from a real run** ([`sim/run.log`](sim/run.log), [`sim/measured.txt`](sim/measured.txt); 25 s of virtual time in about 25 s of wall clock):
+**Measured, from a real run** ([`sim/run.log`](sim/run.log), [`sim/measured.txt`](sim/measured.txt); 25 s of virtual time in about 30 s of wall clock):
 
 - Boots and takes terminal commands over USART3 (`set` answers `Set OK`; `get` polls parse into columns; `errors` lists the fault).
 - **Precharge failure:** ignition and start button at 1.0 / 1.2 s with no DC voltage reported: inverter power (PA8) at 1.215 s, precharge relay (PC6) at 1.455 s,
@@ -42,7 +41,7 @@ The numbers below come from a pyrite build (`sim 0.10.0`, commit `50d3404e`, the
 
 **What does not work / is not shown**
 
-- **No throttle.** The F103/F1 ADC has no analog input in this sim build ([pyrite#3810](https://github.com/simantic-dev/pyrite/issues/3810)), so the pedal,
+- **No throttle.** This demo does not stimulate the ADC (pyrite#3810, F1 ADC analog input, is fixed in 0.10.8 but not used here), so the pedal,
   temperatures and 12 V all read 0. `potmin` is set to 50 over the terminal so the start condition (`pot` < `potmin`) holds; positive torque, throttle ramp and limiting are not exercised.
 - CAN3 (MCP25625 on SPI2), the LIN bus (USART1), the Toyota inverter link (USART2) and the TIM1/TIM3 PWM outputs have no peer: the firmware runs through their init, nothing is checked.
 - Only the Leaf inverter, SimpBMS, Elcon charger and E46 vehicle paths are run; the other inverters, vehicles, chargers and CAN-mapped I/O are untried. Flash parameter save is untried.
