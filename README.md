@@ -13,8 +13,11 @@ the key, start button and brake on pads, and a serial terminal on USART3. No boa
 cd sim && SIM=/path/to/sim ./run.sh     # the plot needs python3 + matplotlib
 ```
 
-**This needs a pre-release `sim` until STM32F1 ships.** Released `sim` 0.10.4 does not run it (`machine 'vcu': build error: no cpu entry`).
-The numbers below come from a pyrite build (`sim 0.10.0`, commit `50d3404e`, the F1 model branch merged with the F1 die model), set with `SIM=`.
+**Runs on the released `sim` 0.10.8** (build 64f89c38, re-run 2026-11-25: all checks in `sim/run.sh` pass and `sim/measured.txt` is byte-identical to the earlier pre-release run, which used `sim 0.10.0` commit `50d3404e`). The earlier note that the released 0.10.4 could not run it (`no cpu entry`) no longer applies.
+
+![Stm32-vcu, animated](sim/vcu.gif)
+
+*The 25 s virtual run (33 s of wall time on a loaded laptop), drawn by `sim/make_gif.py` from a `sim --record` directory (pad edges, the VCU's CAN 0x1D4 torque frames, `opmode` polled over the terminal): precharge timeout at 7.0 s, drive at 9.7 s with regen on lift-off at 12 s, charge from 16 s.*
 
 ![State machine, relays, Leaf and Elcon CAN](sim/vcu.png)
 
@@ -42,7 +45,7 @@ The numbers below come from a pyrite build (`sim 0.10.0`, commit `50d3404e`, the
 
 **What does not work / is not shown**
 
-- **No throttle.** The F103/F1 ADC has no analog input in this sim build ([pyrite#3810](https://github.com/simantic-dev/pyrite/issues/3810)), so the pedal,
+- **No throttle.** The F103/F1 ADC has no analog input in this sim build (pyrite issue 3810, now closed; this scenario does not feed the pedal yet, so the throttle path is still not exercised), so the pedal,
   temperatures and 12 V all read 0. `potmin` is set to 50 over the terminal so the start condition (`pot` < `potmin`) holds; positive torque, throttle ramp and limiting are not exercised.
 - CAN3 (MCP25625 on SPI2), the LIN bus (USART1), the Toyota inverter link (USART2) and the TIM1/TIM3 PWM outputs have no peer: the firmware runs through their init, nothing is checked.
 - Only the Leaf inverter, SimpBMS, Elcon charger and E46 vehicle paths are run; the other inverters, vehicles, chargers and CAN-mapped I/O are untried. Flash parameter save is untried.
